@@ -1,0 +1,40 @@
+{
+  "name": "slack-hearthstone-slashcommand",
+  "version": "1.0.0",
+  "description": "AWS Lambda function to integrate hearthstoneAPI with Slack",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "slack",
+    "hearthstone"
+  ],
+  "author": "curator <curator@shmoo.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "hearthstone-mashape": "^0.0.6",
+    "random-seed": "^0.3.0"
+  },
+  "devDependencies": {
+    "aws-lambda-mock-context": "^2.0.0",
+    "aws-sdk": "^2.3.0",
+    "chai": "^3.5.0",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-install": "^0.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-util": "^3.0.7",
+    "gulp-zip": "^3.2.0",
+    "mocha": "^2.4.5",
+    "nock": "^7.7.2",
+    "run-sequence": "^1.1.5"
+  }
+}
